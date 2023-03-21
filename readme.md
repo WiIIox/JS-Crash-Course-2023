@@ -10,7 +10,7 @@ The repository is organized into folders for each topic covered in the course. E
 You can find the solutions to each task in their respective markdown files within the topic folders.
 
 * 01_intro
-    - [Task 1](01_intro/task1.md)
-    - [Task 2](01_intro/task2.md)
+    - [Task 1](01_intro/task1/task1.md)
+    - [Task 2](01_intro/task2/task2.md)
 * more tasks will be available later...
     - they were not provided yet

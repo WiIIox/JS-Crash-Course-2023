@@ -10,4 +10,4 @@ Request user’s data and show the results by using **prompt()** and **alert()**
 
 ---
 
-### [Solutions for Task 2 might be found here.](https://wiiiox.github.io/JS-Crash-Course-2023/01_intro/task2/task2.html)
+### [Solutions for Task 2 might be found here.](https://wiiiox.github.io/JS-Crash-Course-2023/week1/task2/task2.html)

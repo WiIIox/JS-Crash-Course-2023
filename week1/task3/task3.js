@@ -16,16 +16,21 @@ function charByNumber() {
     }
 }
 
-function isLeapYear() {
-    let year = +prompt("Enter a year: ");
-    alert(`${year} is ${(((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)) ? '':'not '}a leap year.`);
+function isLeapYear(year, showAlert = true) {
+    if (!year) year = +prompt("Enter a year: ");
+    isLeap = (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0));
+    if (showAlert) alert(`${year} is ${isLeap ? '' : 'not '}a leap year.`);
+    return isLeap;
 }
+
+const formatNum = num => String(num).padStart(2, '0')
 
 function getNextDate() {
     let day = +prompt("Enter day (1-31): ");
     let month = +prompt("Enter month (1-12): ");
     let year = +prompt("Enter year: ");
-    let maxDays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][month-1];
+    let isLeap = isLeapYear(year, showAlert=false);
+    let maxDays = [31, isLeap ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][month-1];
 
     if (day < maxDays) {
         day++;
@@ -39,7 +44,7 @@ function getNextDate() {
         }
     }
 
-    alert(`The next date is ${day}.${month}.${year}`)
+    alert(`The next date is ${formatNum(day)}.${formatNum(month)}.${year}`)
 }
 
 function calculateSum() {

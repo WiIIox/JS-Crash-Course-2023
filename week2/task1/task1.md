@@ -24,19 +24,21 @@
 2. Write a function that converts the first character of a string to uppercase.
 3. Count the number of words in the string that the user entered.
 4. The user enters a phrase. Convert it to an abbreviation.
-For example: cascading style sheets in CSS, object-oriented programming in OOP.
+    ````
+    For example: cascading style sheets in CSS, object-oriented programming in OOP.
+    ````
 5. Check if the entered string is a palindrome.
 6. \*Write a function that takes a url and displays detailed information about it.
-
+    ```
     For example: 
-        
+            
         url «https://career.softserveinc.com/uk-ua/technology/course» 
-        
+            
         information:
             protocol: https
             domain: career.softserveinc.com
             path: uk-ua/technology/course
-
+    ```
 ---
 
 ### [Solutions for Task 1 might be found here.](https://wiiiox.github.io/JS-Crash-Course-2023/week2/task1/task1.html)

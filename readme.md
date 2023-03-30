@@ -13,5 +13,6 @@ You can find the solutions to each task in their respective markdown files withi
     - [Task 1](week1/task1/task1.md)
     - [Task 2](week1/task2/task2.md)
     - [Task 3](week1/task3/task3.md)
-* more tasks will be available later...
-    - they were not provided yet
+* Week 2
+    - [Task 1](week2/task1/task1.md)
+    - more tasks will be available later...

@@ -21,3 +21,7 @@
 - метод, який повертає наступну дату.
 
 Створіть об'єкт класу `ExtendedDate` і виведіть на екран результати роботи нових методів.
+
+---
+
+### [Solutions for Task 2 might be found here.](https://wiiiox.github.io/JS-Crash-Course-2023/week3/task2/task2.html)

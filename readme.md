@@ -17,4 +17,5 @@ You can find the solutions to each task in their respective markdown files withi
     - [Task 1 - Array. String](week2/task1/task1.md)
 * Week 3
     - [Task 1 - Objects](week3/task1/task1.md)
+    - [Task 1 - Intro to OOP. Classes](week3/task2/task2.md)
     - more tasks will be available later...

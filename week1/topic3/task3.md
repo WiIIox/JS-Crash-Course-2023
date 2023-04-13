@@ -1,13 +1,13 @@
 # TOPIC: Logic Operators. Selection Statements. Loops
 
-## Task 3.1:
+## Task 1.3.1:
 
 You should decide which selection operator is better to use for each task: `if`, `switch` or `?:` ternary operator.
 1. Ask the user for a number from 0 to 9 and display the special character located on this key (1-!, 2-@, 3-#, etc.).
 2. Ask the user for the year and check whether it is a leap year or not. A leap year is either a multiple of 400 or a multiple of 4 but not a multiple of 100.
 3. Request a date (day, month, year) and display the next date. Consider the possibility of moving to the next month, year, as well as leap year.
 
-## Task 3.2:
+## Task 1.3.2:
 
 You should decide which type of a loop is better to use for each task: `while`, `do while` or `for`.
 1. Calculate the sum of all numbers in the range specified by the user.
@@ -17,4 +17,4 @@ You should decide which type of a loop is better to use for each task: `while`, 
 
 ---
 
-### [Solutions for Task 3 might be found here.](https://wiiiox.github.io/JS-Crash-Course-2023/week1/task3/task3.html)
+### [Solutions for Topic 1.3 might be found here.](https://wiiiox.github.io/JS-Crash-Course-2023/week1/topic3/task3.html)

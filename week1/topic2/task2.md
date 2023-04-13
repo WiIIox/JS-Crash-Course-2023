@@ -1,6 +1,6 @@
 # TOPIC: Data Types. Operators
 
-## Task 2:
+## Task 1.2:
 
 Request user’s data and show the results by using **prompt()** and **alert()** dialogs.
 
@@ -10,4 +10,4 @@ Request user’s data and show the results by using **prompt()** and **alert()**
 
 ---
 
-### [Solutions for Task 2 might be found here.](https://wiiiox.github.io/JS-Crash-Course-2023/week1/task2/task2.html)
+### [Solutions for Topic 1.2 might be found here.](https://wiiiox.github.io/JS-Crash-Course-2023/week1/topic2/task2.html)

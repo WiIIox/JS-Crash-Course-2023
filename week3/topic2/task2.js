@@ -101,12 +101,12 @@ function task2p2() {
     myBButton.showBtn();
 }
 
-function task3 () {
+function task3() {
     let myDate = new ExtendedDate(new Date("2025-11-12"));
     alert(`We are working with 2025-11-12.
 
     Current date is: ${myDate.getDateText()}
     Future date? ${myDate.isFuture()}
     Leap year? ${myDate.isLeapYear()}
-    Next date is ${myDate.getNextDate()}`)
+    Next date is ${myDate.getNextDate()}`);
 }

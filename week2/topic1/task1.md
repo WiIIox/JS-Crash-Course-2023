@@ -1,6 +1,6 @@
 # TOPIC: Array. String
 
-## Task 1.1:
+## Task 2.1.1:
 
 **Try to use the methods of the `Array` object in each task below:**
 
@@ -16,7 +16,7 @@
 8. \*Check if the array has duplicates.
 
 
-## Task 1.2:
+## Task 2.1.2:
 
 **Try to use the methods of the `String` type in the tasks below:**
 
@@ -41,4 +41,4 @@
     ```
 ---
 
-### [Solutions for Task 1 might be found here.](https://wiiiox.github.io/JS-Crash-Course-2023/week2/task1/task1.html)
+### [Solutions for Topic 2.1 might be found here.](https://wiiiox.github.io/JS-Crash-Course-2023/week2/topic1/task1.html)

@@ -1,0 +1,37 @@
+.container {
+	max-width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.player {
+	display: inline-block;
+	margin: 20px;
+}
+
+.cards {
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: 50px;
+	height: 75px;
+	margin: 5px;
+	background-color: white;
+	border: 1px solid black;
+	position: relative;
+}
+
+.card span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 1.5em;
+}

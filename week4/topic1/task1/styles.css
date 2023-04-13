@@ -1,0 +1,9 @@
+/* Center the clock in the middle of the page */
+#clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    font-family: sans-serif;
+}

@@ -20,4 +20,5 @@ You can find the solutions to each task in their respective markdown files withi
     - [Topic 3.2 - Intro to OOP. Classes](week3/topic2/task2.md)
 * Week 4
     - [Topic 4.1 - Working with DOM](week4/topic1/task1.md)
+    - [Topic 4.2 - Events. Working with DOM](week4/topic2/task.md)
     - more tasks will be available later...

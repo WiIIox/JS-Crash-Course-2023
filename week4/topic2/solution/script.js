@@ -11,7 +11,8 @@ function check_values(model, year, price, color, customsCleared, bodyType, purch
     return false
 }
 
-addBtn.onclick = () => {
+addBtn.onclick = (event) => {
+    event.preventDefault();
     const model = document.getElementById('model').value;
     const year = +document.getElementById('year').value;
     const price = +document.getElementById('price').value;

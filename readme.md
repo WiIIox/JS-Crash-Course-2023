@@ -21,4 +21,6 @@ You can find the solutions to each task in their respective markdown files withi
 * Week 4
     - [Topic 4.1 - Working with DOM](week4/topic1/task1.md)
     - [Topic 4.2 - Events. Working with DOM](week4/topic2/task.md)
+* Week 5
+    - [Topic 5.1 - Asynchronous JS. Promises. Async and await](week5/topic1/task1.md)
     - more tasks will be available later...

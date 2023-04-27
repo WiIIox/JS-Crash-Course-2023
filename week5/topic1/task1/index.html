@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 5.1 Solutions</title>
+</head>
+<body>
+    <h1>ТЕМА: Асинхронний JS. Promises</h1>
+    <h2>Завдання 1:</h2>
+    <p>Реалізуйте функцію <code>getPromise(message, delay)</code>, яка приймає текстове повідомлення message і цілочисельне значення затримки <code>delay</code> (в мс) і повертає <code>Promise</code>, який чекає задану кількість часу (використовуючи аргумент <code>delay</code>) і завершується повідомленням <code>message</code>.</p>
+    <p>Приклад застосування функції:</p>
+    <pre>
+        getPromise("test promise", 2000).then(function(data) {
+            console.log(data);
+        });
+    </pre>
+    <p>Результат: через 2 сек в консолі виводиться "test promise".</p>
+    
+    <br><br>
+    
+    <h2>Завдання 2:</h2>
+    <p>Реалізуйте функцію <code>calcArrProduct(arr)</code>, яка приймає масив чисел. Функція повинна повернути <code>Promise</code>, робота якого завершується поверненням добутку елементів масиву, якщо вони є типу <code>Numbers</code>, або повідомленням "Error! Incorrect array!" у випадку, якщо хоча б 1 елемент масиву нечисловий.</p>
+
+    <p>Приклад застосування функції:</p>
+    <pre>
+        calcArrProduct([3, 4, 5]).then(result => console.log(result)); // 60
+        calcArrProduct([5, "user2", 7, 12]).then(result =>
+        console.log(result)); 
+        // "Error! Incorrect array!"
+    </pre>
+    <hr>
+    <h1>Для перегляду результатів потрібно відкрити консоль</h1>
+    <script src="script.js"></script>
+</body>
+</html>

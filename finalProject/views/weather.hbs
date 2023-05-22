@@ -1,0 +1,37 @@
+{{> header}}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-2 mt-4">
+            <div class="list-group">
+                {{#each cities}}
+                <a href="/weather/{{eng_city}}" class="list-group-item list-group-item-action">{{name}}</a>
+                {{/each}}
+            </div>
+        </div>
+        <div class="col-lg-10 mt-4">
+            <div class="card p-3">
+                <div class="card-body text-center">
+                    <h1 class="text-start">Погода в місті {{city}}</h1>
+                    <img src="https://openweathermap.org/img/wn/{{weather.weather.0.icon}}@2x.png" alt="Weather Image">
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <td>Тиск</td>
+                                <td>{{weather.main.pressure}} мілібар</td>
+                            </tr>
+                            <tr>
+                                <td>Вологість</td>
+                                <td>{{weather.main.humidity}} %</td>
+                            </tr>
+                            <tr>
+                                <td>Температура</td>
+                                <td>{{weather.main.temp}} °C</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{> footer}}
